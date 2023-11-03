@@ -18,6 +18,8 @@ function App() {
     console.log('S');
   }
 
+  const c = 1;
+
 	X();
 	console.log(v, c, g);
 
