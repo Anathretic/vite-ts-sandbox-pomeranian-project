@@ -7,18 +7,15 @@ function App() {
 	const [count, setCount] = useState(0);
 
 	function X() {
-    console.log('X');
-  }
+		console.log('X');
+	}
 
-  function X(){
-    console.log('X');
-  }
+	const v: string = 'test';
+	const c = 1;
+	const g = 2;
 
-  const v:number = 'test'
-  let c
-  var g
-
-  X()
+	X();
+	console.log(v, c, g);
 
 	return (
 		<>
