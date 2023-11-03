@@ -14,6 +14,10 @@ function App() {
 	const c = 1;
 	const g = 2;
 
+  function X() {
+    console.log('S');
+  }
+
 	X();
 	console.log(v, c, g);
 
